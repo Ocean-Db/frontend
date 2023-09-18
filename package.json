@@ -30,5 +30,8 @@
     "tailwindcss": "3.3.3",
     "tailwindcss-animate": "^1.0.7",
     "zod": "^3.22.2"
+  },
+  "devDependencies": {
+    "@hookform/devtools": "^4.3.1"
   }
 }

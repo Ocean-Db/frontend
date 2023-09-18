@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="bg-black p-3">
       <div className="md:flex justify-between">
         <div>
-          <Image classname="fill-white" src="/logo.png" width={100} height={100} />
+          <Image className="fill-white" src="/logo.png" alt="logo" width={100} height={100} />
         </div>
 
         <div className="grid md:flex justify-center text-center">

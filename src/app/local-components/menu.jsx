@@ -16,7 +16,7 @@ export const MenuMD = () => {
     <div>
       <ul className="flex relative">
         {menuData.map((item) => (
-          <div className="px-4 hover:bg-white hover:py-1 hover:rounded-[5px]">
+          <div key={item} className="px-4 hover:bg-white hover:py-1 hover:rounded-[5px]">
             <Link
               className="   text-blue-500 text-sm"
               href="#"
@@ -39,9 +39,9 @@ export const Menu = () => {
             <HiMenuAlt4 size={32} />
           </h1>
         </DropdownMenuTrigger>
-        <DropdownMenuContent className="bg-white text-blue-500">
+        <DropdownMenuContent className="bg-white w-[250px] text-blue-500">
           {menuData.map((item) => (
-            <DropdownMenuItem className="">{item}</DropdownMenuItem>
+            <DropdownMenuItem key={item} className="p-5 text-center hover:bg-slate-100">{item}</DropdownMenuItem>
           ))}
         </DropdownMenuContent>
       </DropdownMenu>

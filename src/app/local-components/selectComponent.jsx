@@ -26,7 +26,7 @@ import {
            <SelectGroup>
            <SelectLabel>Servers</SelectLabel>
             {selectData.map((value) => (
-              <SelectItem className="p-2" value={value}>{value}</SelectItem>
+              <SelectItem key={value} className="p-2" value={value}>{value}</SelectItem>
             ))}
             </SelectGroup>
           </SelectContent>
