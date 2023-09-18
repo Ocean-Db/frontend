@@ -117,7 +117,6 @@ const FormComponent = () => {
           </Button>
         </div>
       </form>
-      <DevTool control={control} />
     </div>
   );
 };
