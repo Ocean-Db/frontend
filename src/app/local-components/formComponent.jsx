@@ -31,7 +31,12 @@ const FormComponent = () => {
       <form onSubmit={handleSubmit(onSubmit)} noValidate>
         <div className="my-10">
           <div>
-            <SelectElement />
+            <select name="" id="" placeholder="server" className="w-[100%] border-zinc-100 p-2">
+              <option className="p-2 hover:bg-blue-500" value="MySql server">MySql server</option>
+              <option className="p-2 hover:bg-blue-500" value="MySql server">MongoDB server</option>
+              <option className="p-2 hover:bg-blue-500" value="MySql server">Amazon server</option>
+              <option className="p-2 hover:bg-blue-500" value="MySql server">Google Cloud server</option>
+            </select>
           </div>
           <div>
             <Input
