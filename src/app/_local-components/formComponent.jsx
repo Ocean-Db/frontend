@@ -160,9 +160,9 @@ const FormComponent = () => {
               Commit
             </Button>
           </div>
-          {notify ? <div className='text-green-500 p-3'>You have successfully integrated your data!</div> : null}
-        </form>
-      </div>
+          </form>
+          {notify ? <div className='text-green-600 text-lg py-3'>You have successfully integrated your data!</div> : null}
+          </div>
     </>
   );
 };
