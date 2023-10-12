@@ -18,7 +18,7 @@ export const MenuMD = () => {
         {menuData.map((item) => (
           <div key={item} className="px-4 hover:bg-white hover:py-1 hover:rounded-[5px]">
             <Link
-              className="   text-blue-500 text-sm"
+              className="text-blue-500 text-sm text-center"
               href="#"
             >
               {item}

@@ -1,7 +1,7 @@
-import Header from "./local-components/header";
-import HeroFoot from "./local-components/heroFoot";
-import MainSection from "./local-components/mainSection";
-import Footer from "./local-components/Footer";
+import Header from "./_local-components/header";
+import HeroFoot from "./_local-components/heroFoot";
+import MainSection from "./_local-components/mainSection";
+import Footer from "./_local-components/Footer";
 
 const Wrapper = () =>{
     return(
